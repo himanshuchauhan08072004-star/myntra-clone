@@ -1,59 +1,386 @@
 [
-    {
-      "id": 1,
-      "name": "Casual White T-Shirt",
-      "brand": "Roadster",
-      "price": 499,
-      "discount": "60% OFF",
-      "description": "Classic white t-shirt made from premium cotton. Perfect for everyday wear with a comfortable regular fit.",
-      "sizes": ["S", "M", "L", "XL"],
-      "images": [
-        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=500&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Denim Jacket",
-      "brand": "Levis",
-      "price": 2499,
-      "discount": "40% OFF",
-      "description": "Classic denim jacket with a modern twist. Features premium quality denim and comfortable fit.",
-      "sizes": ["S", "M", "L", "XL"],
-      "images": [
-        "https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?w=500&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=500&auto=format&fit=crop"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Summer Dress",
-      "brand": "ONLY",
-      "price": 1299,
-      "discount": "50% OFF",
-      "description": "Flowy summer dress perfect for warm weather. Made from lightweight fabric with a flattering cut.",
-      "sizes": ["XS", "S", "M", "L"],
-      "images": [
-        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1623609163859-ca93c959b98a?w=500&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&auto=format&fit=crop"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Classic Sneakers",
-      "brand": "Nike",
-      "price": 3499,
-      "discount": "30% OFF",
-      "description": "Versatile sneakers that combine style and comfort. Perfect for both casual wear and light exercise.",
-      "sizes": ["UK6", "UK7", "UK8", "UK9", "UK10"],
-      "images": [
-        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=500&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop"
-      ]
-    }
-  ]
-  
+  {
+    "name": "Men Slim Fit Casual Shirt",
+    "brand": "Roadster",
+    "category": "Men",
+    "price": 799,
+    "originalPrice": 1999,
+    "discount": "60% OFF",
+    "rating": 4.2,
+    "reviewCount": 3421,
+    "description": "Pure cotton slim fit casual shirt with spread collar and full sleeves. Machine wash, breathable fabric ideal for everyday wear.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=80",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Classic Denim Jacket",
+    "brand": "HRX",
+    "category": "Men",
+    "price": 1499,
+    "originalPrice": 2999,
+    "discount": "50% OFF",
+    "rating": 4.4,
+    "reviewCount": 1876,
+    "description": "Washed denim jacket with button closure and chest pockets. Layer it over any tee for an instant street-style upgrade.",
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&q=80",
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Men Graphic Print T-Shirt",
+    "brand": "H&M",
+    "category": "Men",
+    "price": 499,
+    "originalPrice": 999,
+    "discount": "50% OFF",
+    "rating": 4.0,
+    "reviewCount": 5210,
+    "description": "100% cotton round neck t-shirt with a bold graphic print. Regular fit, pre-shrunk fabric.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Men Slim Fit Chinos",
+    "brand": "Levis",
+    "category": "Men",
+    "price": 1299,
+    "originalPrice": 2499,
+    "discount": "48% OFF",
+    "rating": 4.3,
+    "reviewCount": 2894,
+    "description": "Mid-rise slim fit chino trousers in stretchable cotton fabric. Perfect for smart-casual occasions.",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&q=80",
+      "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Women Floral Wrap Dress",
+    "brand": "Zara",
+    "category": "Women",
+    "price": 1899,
+    "originalPrice": 3499,
+    "discount": "45% OFF",
+    "rating": 4.5,
+    "reviewCount": 1654,
+    "description": "Flowy floral wrap dress with a flattering V-neck and tie-up waist. Perfect for brunch dates or evening outings.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80",
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Women Ethnic Anarkali Kurta",
+    "brand": "Libas",
+    "category": "Women",
+    "price": 1199,
+    "originalPrice": 2799,
+    "discount": "57% OFF",
+    "rating": 4.6,
+    "reviewCount": 4302,
+    "description": "Printed anarkali kurta with 3/4 sleeves and flared silhouette. Comes with matching bottom fabric.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1610030181087-540659241a1b?w=800&q=80",
+      "https://images.unsplash.com/photo-1583391733956-6c78276477e4?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Women High-Waist Jeans",
+    "brand": "ONLY",
+    "category": "Women",
+    "price": 1599,
+    "originalPrice": 2999,
+    "discount": "47% OFF",
+    "rating": 4.1,
+    "reviewCount": 2765,
+    "description": "Stretchable high-waist skinny fit jeans with a clean five-pocket design. Pairs well with crop tops and tees.",
+    "sizes": ["26", "28", "30", "32", "34"],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&q=80",
+      "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Women Casual Denim Shirt",
+    "brand": "Vero Moda",
+    "category": "Women",
+    "price": 999,
+    "originalPrice": 1999,
+    "discount": "50% OFF",
+    "rating": 4.2,
+    "reviewCount": 1432,
+    "description": "Relaxed fit denim shirt that can be worn open over a tee or tucked into skirts and jeans alike.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800&q=80",
+      "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Men Running Sneakers",
+    "brand": "Puma",
+    "category": "Footwear",
+    "price": 2499,
+    "originalPrice": 4999,
+    "discount": "50% OFF",
+    "rating": 4.5,
+    "reviewCount": 6210,
+    "description": "Lightweight running shoes with breathable mesh upper and cushioned sole for all-day comfort.",
+    "sizes": ["6", "7", "8", "9", "10", "11"],
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Women Block Heel Sandals",
+    "brand": "Metro",
+    "category": "Footwear",
+    "price": 1399,
+    "originalPrice": 2799,
+    "discount": "50% OFF",
+    "rating": 4.3,
+    "reviewCount": 987,
+    "description": "Comfortable block heel sandals with ankle strap. Perfect for both office wear and evening events.",
+    "sizes": ["4", "5", "6", "7", "8"],
+    "images": [
+      "https://images.unsplash.com/photo-1596703263926-eb0762ee17e4?w=800&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Classic White Sneakers",
+    "brand": "Adidas",
+    "category": "Footwear",
+    "price": 3299,
+    "originalPrice": 5999,
+    "discount": "45% OFF",
+    "rating": 4.6,
+    "reviewCount": 8102,
+    "description": "Timeless white leather sneakers with a minimal silhouette — goes with literally everything.",
+    "sizes": ["6", "7", "8", "9", "10", "11"],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=80",
+      "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Men Formal Leather Shoes",
+    "brand": "Bata",
+    "category": "Footwear",
+    "price": 1899,
+    "originalPrice": 3499,
+    "discount": "46% OFF",
+    "rating": 4.1,
+    "reviewCount": 1543,
+    "description": "Genuine leather formal derby shoes with cushioned insole. A wardrobe essential for office and events.",
+    "sizes": ["6", "7", "8", "9", "10", "11"],
+    "images": [
+      "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800&q=80",
+      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Kids Cotton Printed T-Shirt",
+    "brand": "H&M Kids",
+    "category": "Kids",
+    "price": 349,
+    "originalPrice": 699,
+    "discount": "50% OFF",
+    "rating": 4.4,
+    "reviewCount": 621,
+    "description": "Soft cotton t-shirt with fun printed graphics, made for all-day play comfort.",
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Kids Denim Dungaree",
+    "brand": "Mothercare",
+    "category": "Kids",
+    "price": 899,
+    "originalPrice": 1599,
+    "discount": "44% OFF",
+    "rating": 4.5,
+    "reviewCount": 412,
+    "description": "Adjustable strap denim dungaree with front pockets — durable and easy to layer over a tee.",
+    "sizes": ["1-2Y", "2-3Y", "4-5Y", "6-7Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=800&q=80",
+      "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Girls Party Frock",
+    "brand": "Cutecumber",
+    "category": "Kids",
+    "price": 1199,
+    "originalPrice": 2199,
+    "discount": "45% OFF",
+    "rating": 4.6,
+    "reviewCount": 289,
+    "description": "Layered net frock with sequin work, perfect for birthdays and family functions.",
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1503944168849-7a3ee1a67f00?w=800&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Leather Analog Watch",
+    "brand": "Fossil",
+    "category": "Accessories",
+    "price": 3999,
+    "originalPrice": 7999,
+    "discount": "50% OFF",
+    "rating": 4.7,
+    "reviewCount": 2109,
+    "description": "Minimalist analog watch with genuine leather strap and scratch-resistant dial.",
+    "sizes": ["Free Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=800&q=80",
+      "https://images.unsplash.com/photo-1495856458515-0637185db551?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Structured Handheld Bag",
+    "brand": "Caprese",
+    "category": "Accessories",
+    "price": 1799,
+    "originalPrice": 3599,
+    "discount": "50% OFF",
+    "rating": 4.3,
+    "reviewCount": 876,
+    "description": "Structured faux-leather handbag with gold-tone hardware and adjustable sling strap.",
+    "sizes": ["Free Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80",
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Aviator Sunglasses",
+    "brand": "Ray-Ban",
+    "category": "Accessories",
+    "price": 2499,
+    "originalPrice": 4499,
+    "discount": "44% OFF",
+    "rating": 4.6,
+    "reviewCount": 3320,
+    "description": "Classic gold-frame aviator sunglasses with UV-protected lenses.",
+    "sizes": ["Free Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Men Winter Puffer Jacket",
+    "brand": "Roadster",
+    "category": "Men",
+    "price": 2199,
+    "originalPrice": 4499,
+    "discount": "51% OFF",
+    "rating": 4.4,
+    "reviewCount": 1298,
+    "description": "Quilted puffer jacket with high neck collar and zip closure, built for cold weather.",
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=800&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Women Oversized Blazer",
+    "brand": "Mango",
+    "category": "Women",
+    "price": 2299,
+    "originalPrice": 4299,
+    "discount": "46% OFF",
+    "rating": 4.5,
+    "reviewCount": 954,
+    "description": "Tailored oversized blazer that instantly elevates jeans-and-tee combos into office-ready looks.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
+      "https://images.unsplash.com/photo-1548624313-0396c75f7be6?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Men Hooded Sweatshirt",
+    "brand": "HRX",
+    "category": "Men",
+    "price": 899,
+    "originalPrice": 1799,
+    "discount": "50% OFF",
+    "rating": 4.2,
+    "reviewCount": 2043,
+    "description": "Fleece-lined hooded sweatshirt with kangaroo pocket, ideal for layering in winter.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80",
+      "https://images.unsplash.com/photo-1517438476312-10d79c077509?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Women Crop Top",
+    "brand": "ONLY",
+    "category": "Women",
+    "price": 599,
+    "originalPrice": 1199,
+    "discount": "50% OFF",
+    "rating": 4.0,
+    "reviewCount": 1765,
+    "description": "Ribbed knit crop top with round neck — pairs perfectly with high-waist jeans or skirts.",
+    "sizes": ["XS", "S", "M", "L"],
+    "images": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Canvas Sports Backpack",
+    "brand": "Wildcraft",
+    "category": "Accessories",
+    "price": 1299,
+    "originalPrice": 2499,
+    "discount": "48% OFF",
+    "rating": 4.5,
+    "reviewCount": 3892,
+    "description": "Water-resistant canvas backpack with padded laptop compartment and multiple pockets.",
+    "sizes": ["Free Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&q=80"
+    ]
+  },
+  {
+    "name": "Boys Casual Shorts Set",
+    "brand": "Allen Solly Junior",
+    "category": "Kids",
+    "price": 799,
+    "originalPrice": 1499,
+    "discount": "47% OFF",
+    "rating": 4.3,
+    "reviewCount": 356,
+    "description": "Cotton t-shirt and shorts co-ord set, breathable and easy to move in for active kids.",
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1519457851560-eb6c02c95b70?w=800&q=80",
+      "https://images.unsplash.com/photo-1503944168849-7a3ee1a67f00?w=800&q=80"
+    ]
+  }
+]

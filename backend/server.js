@@ -12,8 +12,8 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: '*', 
-  credentials: true, 
+  origin: true,
+  credentials: true,
 }));
 app.get("/", (req, res) => {
   res.send("✅ Myntra backend in working");
